@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import ElIcons from '@element-plus/icons-vue/global'
+import ElIcons from '@langhua/el-icon-ext/global'
 import App from './App.vue'
 
 createApp(App).use(ElIcons).mount('#app')

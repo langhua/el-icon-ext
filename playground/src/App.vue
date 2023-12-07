@@ -1,10 +1,10 @@
 <script lang="ts" setup>
-import { icons } from '@element-plus/icons-vue/global'
-import { Upload } from '@element-plus/icons-vue'
+import { icons } from '@langhua/el-icon-ext/global'
+import { Paste } from '@langhua/el-icon-ext'
 </script>
 
 <template>
-  <Upload class="icon" />
+  <Paste class="icon" />
   <hr />
   <component :is="Icon" v-for="(Icon, key) in icons" :key="key" class="icon" />
   <hr />

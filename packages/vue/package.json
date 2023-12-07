@@ -1,22 +1,23 @@
 {
-  "name": "@element-plus/icons-vue",
-  "version": "2.3.1",
-  "description": "Vue components of Element Plus Icons collection.",
+  "name": "@langhua/el-icon-ext",
+  "version": "0.0.1",
+  "description": "Vue components of Element Plus Icons extended collection.",
   "type": "module",
   "keywords": [
     "icon",
     "svg",
     "vue",
-    "element-plus"
+    "element-plus",
+    "el-icon-ext"
   ],
   "license": "MIT",
-  "homepage": "https://element-plus.org/",
+  "homepage": "https://github.com/langhua/el-icon-ext",
   "bugs": {
-    "url": "https://github.com/element-plus/element-plus-icons/issues"
+    "url": "https://github.com/langhua/el-icon-ext/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus-icons.git",
+    "url": "git+https://github.com/langhua/el-icon-ext.git",
     "directory": "packages/vue"
   },
   "files": [
@@ -59,7 +60,7 @@
     "vue": "^3.2.0"
   },
   "devDependencies": {
-    "@element-plus/icons-svg": "workspace:*",
+    "@langhua/icons-svg": "workspace:*",
     "@pnpm/find-workspace-dir": "^6.0.2",
     "@pnpm/find-workspace-packages": "^6.0.9",
     "@pnpm/logger": "^5.0.0",

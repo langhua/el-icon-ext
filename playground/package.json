@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@element-plus/icons-svg": "workspace:*",
-    "@element-plus/icons-vue": "workspace:*",
+    "@langhua/icons-svg": "workspace:*",
+    "@langhua/el-icon-ext": "workspace:*",
     "vue": "^3.3.9"
   },
   "devDependencies": {

@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "lint:fix": "pnpm run lint --fix",
     "format": "prettier --write . && pnpm run -C ./packages/svg optimize",
-    "release": "bumpp -r"
+    "release": "bumpp -r",
+    "optimize": "pnpm run -C ./packages/svg optimize"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^3.7.5",

@@ -1,27 +1,27 @@
 {
-  "name": "@element-plus/icons-svg",
-  "version": "2.3.1",
-  "description": "SVG icon for Element Plus Icons collection.",
+  "name": "@langhua/icons-svg",
+  "version": "0.0.1",
+  "description": "SVG icon for Element Plus Icons extended collection.",
   "keywords": [
     "icon",
     "svg",
     "element-plus"
   ],
   "license": "MIT",
-  "homepage": "https://element-plus.org/",
+  "homepage": "https://github.com/langhua/el-icon-ext",
   "bugs": {
-    "url": "https://github.com/element-plus/element-plus-icons/issues"
+    "url": "https://github.com/langhua/el-icon-ext/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus-icons.git",
+    "url": "git+https://github.com/langhua/el-icon-ext.git",
     "directory": "packages/svg"
   },
   "files": [
     "*.svg"
   ],
   "scripts": {
-    "optimize": "svgo -f . -o ."
+    "optimize": "svgo -f ../../original-svg -o . --config ../../svgo.config.cjs"
   },
   "devDependencies": {
     "svgo": "^3.0.4"

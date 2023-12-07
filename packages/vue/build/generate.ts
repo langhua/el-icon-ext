@@ -25,9 +25,7 @@ async function getSvgFiles() {
   const pkgs = await findWorkspacePackages(
     (await findWorkspaceDir(process.cwd()))!,
   )
-  const pkg = pkgs.find(
-    (pkg) => pkg.manifest.name === '@element-plus/icons-svg',
-  )!
+  const pkg = pkgs.find((pkg) => pkg.manifest.name === '@langhua/icons-svg')!
   return glob('*.svg', { cwd: pkg.dir, absolute: true })
 }
 
