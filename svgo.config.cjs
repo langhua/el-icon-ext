@@ -8,7 +8,7 @@ module.exports = {
     {
       name: "removeAttrs",
       params: {
-        attrs: ["svg:width", "svg:height", "svg:class"]
+        attrs: ["svg:width", "svg:height", "svg:class", "path:style"]
       },
     },
     // step 3: set fill attribute of path node to currentColor
